@@ -21,50 +21,64 @@ const translations = {
     "nav.contact": "Contact",
 
     // Hero
-    "hero.title": "Professional Refrigeration Services",
-    "hero.subtitle": "Below Zero",
+    "hero.title": "Professional HVAC & Mechanical Solutions",
+    "hero.subtitle": "Residential • Commercial • Industrial",
     "hero.description":
-      "Expert refrigeration maintenance and repair services for commercial and industrial systems. Keeping your business cool and running efficiently.",
-    "hero.cta.primary": "Get Quote",
+      "Expert heating, cooling, and plumbing services across NJ & NY. 24/7 emergency support, preventive maintenance, and professional installations.",
+    "hero.cta.primary": "Get Free Quote",
     "hero.cta.secondary": "Our Services",
 
     // Services
     "services.title": "Our Services",
-    "services.subtitle": "Complete refrigeration solutions for your business",
+    "services.subtitle": "Complete HVAC & mechanical system solutions for your business",
     "services.maintenance.title": "Preventive Maintenance",
-    "services.maintenance.description": "Regular maintenance to prevent breakdowns and extend equipment life",
+    "services.maintenance.description":
+      "Scheduled maintenance programs to prevent breakdowns and optimize system performance",
     "services.repair.title": "Emergency Repairs",
-    "services.repair.description": "24/7 emergency repair services to minimize downtime",
+    "services.repair.description": "24/7 emergency repair services for heating, cooling, and plumbing systems",
     "services.installation.title": "System Installation",
-    "services.installation.description": "Professional installation of new refrigeration systems",
-    "services.consultation.title": "Technical Consultation",
-    "services.consultation.description": "Expert advice on system optimization and upgrades",
+    "services.installation.description": "Professional installation of HVAC equipment, boilers, and plumbing systems",
+    "services.consultation.title": "Energy Efficiency",
+    "services.consultation.description": "Expert consultation on system optimization and energy-saving upgrades",
     "services.cta": "Get Free Consultation",
 
     // Additional Services
     "services.additional.title": "Additional Services",
-    "services.additional.airQuality.title": "Air Quality Control",
-    "services.additional.airQuality.description": "Advanced filtration and air purification systems",
-    "services.additional.temperatureMonitoring.title": "Temperature Monitoring",
-    "services.additional.temperatureMonitoring.description": "Smart sensors and automated climate control",
-    "services.additional.systemProtection.title": "System Protection",
-    "services.additional.systemProtection.description": "Comprehensive warranty and insurance coverage",
-    "services.additional.support247.title": "24/7 Support",
-    "services.additional.support247.description": "Round-the-clock emergency response team",
-    "services.additional.qualityAssurance.title": "Quality Assurance",
-    "services.additional.qualityAssurance.description": "Certified technicians and premium parts",
+    "services.additional.industrialHeating.title": "Industrial Heating Systems",
+    "services.additional.industrialHeating.description":
+      "Large-scale boiler installations and heating solutions for industrial facilities",
+    "services.additional.ventilation.title": "Advanced Ventilation Systems",
+    "services.additional.ventilation.description":
+      "3D-designed ventilation and air distribution systems for optimal airflow",
+    "services.additional.refrigeration.title": "Commercial Refrigeration",
+    "services.additional.refrigeration.description":
+      "Industrial-grade cooling and refrigeration system maintenance and repair",
+    "services.additional.hotWater.title": "Hot Water Systems",
+    "services.additional.hotWater.description":
+      "Commercial hot water heater installation, maintenance, and emergency repairs",
+    "services.additional.plumbing.title": "Commercial Plumbing Systems",
+    "services.additional.plumbing.description":
+      "Complete plumbing installation, maintenance, and repair for commercial and industrial facilities",
+    "services.additional.specializedPlumbing.title": "Specialized Plumbing Solutions",
+    "services.additional.specializedPlumbing.description":
+      "Advanced piping systems, backflow prevention, and specialized industrial plumbing",
 
     // About
     "about.title": "Why Choose Below Zero?",
-    "about.subtitle": "Industry-leading expertise in refrigeration services",
-    "about.experience.title": "15+ Years Experience",
-    "about.experience.description": "Extensive experience in commercial refrigeration",
-    "about.certified.title": "Certified Technicians",
-    "about.certified.description": "All our technicians are certified and trained",
-    "about.support.title": "24/7 Support",
-    "about.support.description": "Round-the-clock emergency support available",
-    "about.warranty.title": "Service Warranty",
-    "about.warranty.description": "All our work comes with comprehensive warranty",
+    "about.subtitle": "Industry-leading expertise in HVAC & Mechanical Solutions",
+    "about.experience.title": "15+ Years | 500+ Projects",
+    "about.experience.description":
+      "Serving NJ & NY since 2009 with proven expertise in commercial and industrial HVAC",
+    "about.certified.title": "EPA Certified & Licensed",
+    "about.certified.description": "Fully licensed, insured, and EPA certified professionals with ongoing training",
+    "about.support.title": "24/7 Emergency Service",
+    "about.support.description": "Rapid response team available anytime, anywhere across NJ & NY",
+    "about.warranty.title": "100% Satisfaction Guarantee",
+    "about.warranty.description": "Quality workmanship backed by comprehensive warranty and insurance",
+    "about.badge.epa": "EPA Certified",
+    "about.badge.licensed": "Licensed & Insured",
+    "about.badge.emergency": "24/7 Emergency",
+    "about.badge.warranty": "Full Warranty",
 
     // Testimonials
     "testimonials.title": "What Our Clients Say",
@@ -72,7 +86,7 @@ const translations = {
 
     // Contact
     "contact.title": "Get In Touch",
-    "contact.subtitle": "Ready to service your refrigeration needs?",
+    "contact.subtitle": "Ready to service your HVAC & Mechanical needs?",
     "contact.form.name": "Full Name",
     "contact.form.email": "Email Address",
     "contact.form.phone": "Phone Number",
@@ -84,77 +98,82 @@ const translations = {
     "contact.info.hours": "24/7 Emergency Service Available",
 
     // Footer
-    "footer.description": "Professional refrigeration services you can trust",
+    "footer.description": "HVAC & Mechanical Systems - Professional service you can trust",
     "footer.rights": "All rights reserved.",
     "footer.services": "Services",
     "footer.quickLinks": "Quick Links",
     "footer.contact": "Contact Info",
 
     // WhatsApp
-    "whatsapp.message": "Hello! I'm interested in your refrigeration services.",
-    "whatsapp.greeting": "Hi! How can we help you with your refrigeration needs today?",
+    "whatsapp.message": "Hello! I'm interested in your HVAC & Mechanical services.",
+    "whatsapp.greeting": "Hi! How can we help you with your HVAC & Mechanical needs today?",
     "whatsapp.startChat": "Start Chat",
     "whatsapp.contactUs": "Contact us on WhatsApp",
 
     // Success Cases
     "successCases.title": "Success Cases",
-    "successCases.subtitle": "Discover how we've helped businesses achieve optimal refrigeration performance",
+    "successCases.subtitle": "Proven results across commercial and industrial HVAC projects in NJ & NY",
     "successCases.viewGallery": "View Gallery",
     "successCases.category.all": "All",
-    "successCases.category.industrial": "Industrial",
     "successCases.category.commercial": "Commercial",
+    "successCases.category.industrial": "Industrial",
+    "successCases.category.hospitality": "Hospitality",
     "successCases.category.healthcare": "Healthcare",
-    "successCases.category.retail": "Retail",
-    "successCases.category.technology": "Technology",
-    "successCases.category.sports": "Sports",
+    "successCases.category.datacenters": "Data Centers",
 
-    // Case 1 - Industrial
-    "successCases.case1.title": "Industrial Cold Storage Facility",
-    "successCases.case1.client": "FreshMart Distribution",
-    "successCases.case1.description": "Complete refrigeration system overhaul for a 50,000 sq ft cold storage facility",
-    "successCases.case1.result1": "40% energy reduction",
-    "successCases.case1.result2": "99.9% uptime achieved",
-    "successCases.case1.result3": "ROI in 18 months",
+    // Case 1 - Commercial Building (Beacon Hill)
+    "successCases.case1.title": "Beacon Hill Residential Complex - HVAC Upgrade",
+    "successCases.case1.client": "KRE Group | Marlboro, NJ",
+    "successCases.case1.description":
+      "Complete HVAC system modernization for luxury residential building with 200+ units",
+    "successCases.case1.result1": "↓ 35% energy consumption",
+    "successCases.case1.result2": "99.9% system uptime",
+    "successCases.case1.result3": "ROI achieved in 24 months",
 
-    // Case 2 - Commercial
-    "successCases.case2.title": "Restaurant Chain Upgrade",
-    "successCases.case2.client": "Gourmet Bistro Network",
-    "successCases.case2.description": "Modernized refrigeration systems across 15 restaurant locations",
-    "successCases.case2.result1": "30% cost savings",
-    "successCases.case2.result2": "Zero food spoilage",
-    "successCases.case2.result3": "Improved compliance",
+    // Case 2 - Commercial Office (485 Marin)
+    "successCases.case2.title": "485 Marin Boulevard - Commercial HVAC Installation",
+    "successCases.case2.client": "Commercial Office Complex | Jersey City, NJ",
+    "successCases.case2.description":
+      "New HVAC and ventilation system installation for modern office building with advanced climate control",
+    "successCases.case2.result1": "↓ 40% operational costs",
+    "successCases.case2.result2": "Enhanced air quality",
+    "successCases.case2.result3": "Smart climate control",
 
-    // Case 3 - Healthcare
-    "successCases.case3.title": "Pharmaceutical Cold Chain",
-    "successCases.case3.client": "MedTech Solutions",
-    "successCases.case3.description": "Critical temperature-controlled storage for pharmaceutical products",
-    "successCases.case3.result1": "100% compliance",
-    "successCases.case3.result2": "24/7 monitoring",
-    "successCases.case3.result3": "Zero temperature deviations",
+    // Case 3 - Industrial HVAC
+    "successCases.case3.title": "Industrial Manufacturing Facility - Climate Control",
+    "successCases.case3.client": "Manufacturing Plant | Newark, NJ",
+    "successCases.case3.description":
+      "Large-scale industrial HVAC system for temperature-sensitive manufacturing processes",
+    "successCases.case3.result1": "Precise temperature control",
+    "successCases.case3.result2": "24/7 monitoring system",
+    "successCases.case3.result3": "↓ 30% maintenance costs",
 
-    // Case 4 - Retail
-    "successCases.case4.title": "Supermarket Retrofit",
-    "successCases.case4.client": "Metro Grocery Chain",
-    "successCases.case4.description": "Energy-efficient refrigeration upgrade for 8 supermarket locations",
-    "successCases.case4.result1": "50% energy savings",
-    "successCases.case4.result2": "Reduced maintenance",
-    "successCases.case4.result3": "Enhanced food safety",
+    // Case 4 - Hospitality
+    "successCases.case4.title": "Hotel & Conference Center - Complete HVAC Retrofit",
+    "successCases.case4.client": "Luxury Hotel Chain | New York, NY",
+    "successCases.case4.description":
+      "Full HVAC retrofit including boilers, chillers, and individual room climate control for 150-room hotel",
+    "successCases.case4.result1": "Guest satisfaction ↑ 45%",
+    "successCases.case4.result2": "↓ 50% energy bills",
+    "successCases.case4.result3": "Zero downtime during operation",
 
-    // Case 5 - Technology
-    "successCases.case5.title": "Data Center Cooling",
-    "successCases.case5.client": "TechHub Data Centers",
-    "successCases.case5.description": "Precision cooling system for mission-critical server infrastructure",
-    "successCases.case5.result1": "35°C temperature control",
-    "successCases.case5.result2": "99.99% uptime",
-    "successCases.case5.result3": "40% efficiency gain",
+    // Case 5 - Healthcare
+    "successCases.case5.title": "Medical Facility - Critical HVAC & Plumbing Systems",
+    "successCases.case5.client": "Healthcare Center | Hoboken, NJ",
+    "successCases.case5.description":
+      "Installation of medical-grade HVAC with HEPA filtration and redundant plumbing systems",
+    "successCases.case5.result1": "100% compliance achieved",
+    "successCases.case5.result2": "Hospital-grade air quality",
+    "successCases.case5.result3": "Backup systems installed",
 
-    // Case 6 - Sports
-    "successCases.case6.title": "Ice Rink Facility",
-    "successCases.case6.client": "Arctic Sports Complex",
-    "successCases.case6.description": "Complete ice rink refrigeration system installation and maintenance",
-    "successCases.case6.result1": "Perfect ice quality",
-    "successCases.case6.result2": "Energy efficient",
-    "successCases.case6.result3": "Extended season",
+    // Case 6 - Data Center
+    "successCases.case6.title": "Data Center - Precision Cooling & Redundancy",
+    "successCases.case6.client": "Tech Infrastructure | Secaucus, NJ",
+    "successCases.case6.description":
+      "Mission-critical cooling system with N+1 redundancy for 24/7 data center operations",
+    "successCases.case6.result1": "99.99% uptime guaranteed",
+    "successCases.case6.result2": "Precision temperature control",
+    "successCases.case6.result3": "↓ 35% cooling costs",
   },
   es: {
     // Navigation
@@ -166,50 +185,67 @@ const translations = {
     "nav.contact": "Contacto",
 
     // Hero
-    "hero.title": "Servicios Profesionales de Refrigeración",
-    "hero.subtitle": "Below Zero",
+    "hero.title": "Soluciones Profesionales HVAC y Mecánicas",
+    "hero.subtitle": "Residencial • Comercial • Industrial",
     "hero.description":
-      "Servicios expertos de mantenimiento y reparación de refrigeración para sistemas comerciales e industriales. Manteniendo su negocio fresco y funcionando eficientemente.",
-    "hero.cta.primary": "Cotizar",
+      "Servicios expertos de calefacción, refrigeración y plomería en NJ y NY. Soporte de emergencia 24/7, mantenimiento preventivo e instalaciones profesionales.",
+    "hero.cta.primary": "Cotización Gratis",
     "hero.cta.secondary": "Nuestros Servicios",
 
     // Services
     "services.title": "Nuestros Servicios",
-    "services.subtitle": "Soluciones completas de refrigeración para su negocio",
+    "services.subtitle": "Soluciones completas de HVAC y sistemas mecánicos para su negocio",
     "services.maintenance.title": "Mantenimiento Preventivo",
-    "services.maintenance.description": "Mantenimiento regular para prevenir averías y extender la vida del equipo",
+    "services.maintenance.description":
+      "Programas de mantenimiento programado para prevenir averías y optimizar el rendimiento del sistema",
     "services.repair.title": "Reparaciones de Emergencia",
-    "services.repair.description": "Servicios de reparación de emergencia 24/7 para minimizar el tiempo de inactividad",
+    "services.repair.description":
+      "Servicios de reparación de emergencia 24/7 para sistemas de calefacción, refrigeración y plomería",
     "services.installation.title": "Instalación de Sistemas",
-    "services.installation.description": "Instalación profesional de nuevos sistemas de refrigeración",
-    "services.consultation.title": "Consultoría Técnica",
-    "services.consultation.description": "Asesoramiento experto en optimización y actualizaciones de sistemas",
+    "services.installation.description": "Instalación profesional de equipos HVAC, calderas y sistemas de plomería",
+    "services.consultation.title": "Eficiencia Energética",
+    "services.consultation.description":
+      "Consultoría experta en optimización de sistemas y actualizaciones de ahorro de energía",
     "services.cta": "Consulta Gratuita",
 
     // Additional Services
     "services.additional.title": "Servicios Adicionales",
-    "services.additional.airQuality.title": "Control de Calidad del Aire",
-    "services.additional.airQuality.description": "Sistemas avanzados de filtración y purificación de aire",
-    "services.additional.temperatureMonitoring.title": "Monitoreo de Temperatura",
-    "services.additional.temperatureMonitoring.description": "Sensores inteligentes y control climático automatizado",
-    "services.additional.systemProtection.title": "Protección del Sistema",
-    "services.additional.systemProtection.description": "Cobertura integral de garantía y seguro",
-    "services.additional.support247.title": "Soporte 24/7",
-    "services.additional.support247.description": "Equipo de respuesta de emergencia las 24 horas",
-    "services.additional.qualityAssurance.title": "Garantía de Calidad",
-    "services.additional.qualityAssurance.description": "Técnicos certificados y repuestos premium",
+    "services.additional.industrialHeating.title": "Sistemas de Calefacción Industrial",
+    "services.additional.industrialHeating.description":
+      "Instalaciones de calderas a gran escala y soluciones de calefacción para instalaciones industriales",
+    "services.additional.ventilation.title": "Sistemas de Ventilación Avanzados",
+    "services.additional.ventilation.description":
+      "Sistemas de ventilación y distribución de aire diseñados en 3D para flujo de aire óptimo",
+    "services.additional.refrigeration.title": "Refrigeración Comercial",
+    "services.additional.refrigeration.description":
+      "Mantenimiento y reparación de sistemas de refrigeración de grado industrial",
+    "services.additional.hotWater.title": "Sistemas de Agua Caliente",
+    "services.additional.hotWater.description":
+      "Instalación, mantenimiento y reparaciones de emergencia de calentadores de agua comerciales",
+    "services.additional.plumbing.title": "Sistemas de Plomería Comercial",
+    "services.additional.plumbing.description":
+      "Instalación, mantenimiento y reparación completa de plomería para instalaciones comerciales e industriales",
+    "services.additional.specializedPlumbing.title": "Soluciones de Plomería Especializada",
+    "services.additional.specializedPlumbing.description":
+      "Sistemas de tuberías avanzados, prevención de reflujo y plomería industrial especializada",
 
     // About
     "about.title": "¿Por Qué Elegir Below Zero?",
-    "about.subtitle": "Experiencia líder en la industria en servicios de refrigeración",
-    "about.experience.title": "15+ Años de Experiencia",
-    "about.experience.description": "Amplia experiencia en refrigeración comercial",
-    "about.certified.title": "Técnicos Certificados",
-    "about.certified.description": "Todos nuestros técnicos están certificados y capacitados",
-    "about.support.title": "Soporte 24/7",
-    "about.support.description": "Soporte de emergencia disponible las 24 horas",
-    "about.warranty.title": "Garantía de Servicio",
-    "about.warranty.description": "Todo nuestro trabajo viene con garantía integral",
+    "about.subtitle": "Experiencia líder en la industria en soluciones HVAC y mecánicas",
+    "about.experience.title": "15+ Años | 500+ Proyectos",
+    "about.experience.description":
+      "Sirviendo NJ & NY desde 2009 con experiencia comprobada en HVAC comercial e industrial",
+    "about.certified.title": "Certificados EPA y Licenciados",
+    "about.certified.description":
+      "Profesionales completamente licenciados, asegurados y certificados EPA con capacitación continua",
+    "about.support.title": "Servicio de Emergencia 24/7",
+    "about.support.description": "Equipo de respuesta rápida disponible en cualquier momento y lugar en NJ & NY",
+    "about.warranty.title": "Garantía de Satisfacción 100%",
+    "about.warranty.description": "Trabajo de calidad respaldado por garantía integral y seguro",
+    "about.badge.epa": "Certificado EPA",
+    "about.badge.licensed": "Licenciado y Asegurado",
+    "about.badge.emergency": "Emergencia 24/7",
+    "about.badge.warranty": "Garantía Completa",
 
     // Testimonials
     "testimonials.title": "Lo Que Dicen Nuestros Clientes",
@@ -217,7 +253,7 @@ const translations = {
 
     // Contact
     "contact.title": "Contáctanos",
-    "contact.subtitle": "¿Listo para atender sus necesidades de refrigeración?",
+    "contact.subtitle": "¿Listo para atender sus necesidades de HVAC y mecánicas?",
     "contact.form.name": "Nombre Completo",
     "contact.form.email": "Correo Electrónico",
     "contact.form.phone": "Número de Teléfono",
@@ -229,81 +265,82 @@ const translations = {
     "contact.info.hours": "Servicio de Emergencia 24/7 Disponible",
 
     // Footer
-    "footer.description": "Servicios profesionales de refrigeración en los que puede confiar",
+    "footer.description": "Sistemas HVAC y Mecánicos - Servicio profesional en el que puede confiar",
     "footer.rights": "Todos los derechos reservados.",
     "footer.services": "Servicios",
     "footer.quickLinks": "Enlaces Rápidos",
     "footer.contact": "Información de Contacto",
 
     // WhatsApp
-    "whatsapp.message": "¡Hola! Estoy interesado en sus servicios de refrigeración.",
-    "whatsapp.greeting": "¡Hola! ¿Cómo podemos ayudarte con tus necesidades de refrigeración hoy?",
+    "whatsapp.message": "¡Hola! Estoy interesado en sus servicios de HVAC y mecánicas.",
+    "whatsapp.greeting": "¡Hola! ¿Cómo podemos ayudarte con tus necesidades de HVAC y mecánicas hoy?",
     "whatsapp.startChat": "Iniciar Chat",
     "whatsapp.contactUs": "Contáctanos por WhatsApp",
 
     // Success Cases
     "successCases.title": "Casos de Éxito",
-    "successCases.subtitle": "Descubre cómo hemos ayudado a empresas a lograr un rendimiento óptimo de refrigeración",
+    "successCases.subtitle": "Resultados comprobados en proyectos HVAC comerciales e industriales en NJ & NY",
     "successCases.viewGallery": "Ver Galería",
     "successCases.category.all": "Todos",
-    "successCases.category.industrial": "Industrial",
     "successCases.category.commercial": "Comercial",
+    "successCases.category.industrial": "Industrial",
+    "successCases.category.hospitality": "Hospitalidad",
     "successCases.category.healthcare": "Salud",
-    "successCases.category.retail": "Retail",
-    "successCases.category.technology": "Tecnología",
-    "successCases.category.sports": "Deportes",
+    "successCases.category.datacenters": "Centros de Datos",
 
-    // Case 1 - Industrial
-    "successCases.case1.title": "Instalación de Almacén Frigorífico Industrial",
-    "successCases.case1.client": "Distribución FreshMart",
+    // Case 1 - Spanish
+    "successCases.case1.title": "Complejo Residencial Beacon Hill - Actualización HVAC",
+    "successCases.case1.client": "KRE Group | Marlboro, NJ",
     "successCases.case1.description":
-      "Renovación completa del sistema de refrigeración para una instalación de almacén frío de 50,000 pies cuadrados",
-    "successCases.case1.result1": "40% reducción de energía",
-    "successCases.case1.result2": "99.9% tiempo de actividad logrado",
-    "successCases.case1.result3": "ROI en 18 meses",
+      "Modernización completa del sistema HVAC para edificio residencial de lujo con más de 200 unidades",
+    "successCases.case1.result1": "↓ 35% consumo de energía",
+    "successCases.case1.result2": "99.9% tiempo de actividad",
+    "successCases.case1.result3": "ROI logrado en 24 meses",
 
-    // Case 2 - Commercial
-    "successCases.case2.title": "Actualización de Cadena de Restaurantes",
-    "successCases.case2.client": "Red Gourmet Bistro",
-    "successCases.case2.description": "Sistemas de refrigeración modernizados en 15 ubicaciones de restaurantes",
-    "successCases.case2.result1": "30% ahorro en costos",
-    "successCases.case2.result2": "Cero deterioro de alimentos",
-    "successCases.case2.result3": "Cumplimiento mejorado",
+    // Case 2 - Spanish
+    "successCases.case2.title": "485 Marin Boulevard - Instalación HVAC Comercial",
+    "successCases.case2.client": "Complejo de Oficinas Comerciales | Jersey City, NJ",
+    "successCases.case2.description":
+      "Instalación de nuevo sistema HVAC y ventilación para edificio de oficinas moderno con control climático avanzado",
+    "successCases.case2.result1": "↓ 40% costos operativos",
+    "successCases.case2.result2": "Calidad de aire mejorada",
+    "successCases.case2.result3": "Control climático inteligente",
 
-    // Case 3 - Healthcare
-    "successCases.case3.title": "Cadena de Frío Farmacéutica",
-    "successCases.case3.client": "Soluciones MedTech",
-    "successCases.case3.description": "Almacenamiento crítico con temperatura controlada para productos farmacéuticos",
-    "successCases.case3.result1": "100% cumplimiento",
-    "successCases.case3.result2": "Monitoreo 24/7",
-    "successCases.case3.result3": "Cero desviaciones de temperatura",
+    // Case 3 - Spanish
+    "successCases.case3.title": "Planta de Manufactura Industrial - Control Climático",
+    "successCases.case3.client": "Planta de Manufactura | Newark, NJ",
+    "successCases.case3.description":
+      "Sistema HVAC industrial a gran escala para procesos de manufactura sensibles a la temperatura",
+    "successCases.case3.result1": "Control preciso de temperatura",
+    "successCases.case3.result2": "Sistema de monitoreo 24/7",
+    "successCases.case3.result3": "↓ 30% costos de mantenimiento",
 
-    // Case 4 - Retail
-    "successCases.case4.title": "Modernización de Supermercado",
-    "successCases.case4.client": "Cadena Metro Grocery",
+    // Case 4 - Spanish
+    "successCases.case4.title": "Hotel & Centro de Conferencias - Renovación HVAC Completa",
+    "successCases.case4.client": "Cadena Hotelera de Lujo | New York, NY",
     "successCases.case4.description":
-      "Actualización de refrigeración eficiente en energía para 8 ubicaciones de supermercados",
-    "successCases.case4.result1": "50% ahorro de energía",
-    "successCases.case4.result2": "Mantenimiento reducido",
-    "successCases.case4.result3": "Seguridad alimentaria mejorada",
+      "Renovación completa de HVAC incluyendo calderas, enfriadores y control climático individual para hotel de 150 habitaciones",
+    "successCases.case4.result1": "Satisfacción de huéspedes ↑ 45%",
+    "successCases.case4.result2": "↓ 50% facturas de energía",
+    "successCases.case4.result3": "Cero tiempo de inactividad",
 
-    // Case 5 - Technology
-    "successCases.case5.title": "Enfriamiento de Centro de Datos",
-    "successCases.case5.client": "Centros de Datos TechHub",
+    // Case 5 - Spanish
+    "successCases.case5.title": "Instalación Médica - Sistemas HVAC y Plomería Críticos",
+    "successCases.case5.client": "Centro de Salud | Hoboken, NJ",
     "successCases.case5.description":
-      "Sistema de enfriamiento de precisión para infraestructura de servidores críticos",
-    "successCases.case5.result1": "Control de temperatura 35°C",
-    "successCases.case5.result2": "99.99% tiempo de actividad",
-    "successCases.case5.result3": "40% ganancia de eficiencia",
+      "Instalación de HVAC de grado médico con filtración HEPA y sistemas de plomería redundantes",
+    "successCases.case5.result1": "100% cumplimiento logrado",
+    "successCases.case5.result2": "Calidad de aire hospitalaria",
+    "successCases.case5.result3": "Sistemas de respaldo instalados",
 
-    // Case 6 - Sports
-    "successCases.case6.title": "Instalación de Pista de Hielo",
-    "successCases.case6.client": "Complejo Deportivo Arctic",
+    // Case 6 - Spanish
+    "successCases.case6.title": "Centro de Datos - Enfriamiento de Precisión y Redundancia",
+    "successCases.case6.client": "Infraestructura Tecnológica | Secaucus, NJ",
     "successCases.case6.description":
-      "Instalación y mantenimiento completo del sistema de refrigeración de pista de hielo",
-    "successCases.case6.result1": "Calidad de hielo perfecta",
-    "successCases.case6.result2": "Eficiente en energía",
-    "successCases.case6.result3": "Temporada extendida",
+      "Sistema de enfriamiento crítico con redundancia N+1 para operaciones de centro de datos 24/7",
+    "successCases.case6.result1": "99.99% tiempo de actividad garantizado",
+    "successCases.case6.result2": "Control de temperatura de precisión",
+    "successCases.case6.result3": "↓ 35% costos de enfriamiento",
   },
 }
 

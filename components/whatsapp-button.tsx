@@ -37,13 +37,14 @@ export default function WhatsAppButton() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.8, y: 20 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="absolute bottom-20 right-0 mb-4 mr-2"
+            className="absolute bottom-20 right-0 mb-4"
+            style={{ maxWidth: "calc(100vw - 40px)" }}
           >
-            <div className="bg-background/95 backdrop-blur-md border border-border/50 rounded-[25px] p-4 shadow-2xl max-w-md w-64">
+            <div className="bg-background/95 backdrop-blur-md border border-border/50 rounded-[25px] p-4 shadow-2xl w-80 max-w-[calc(100vw-40px)]">
               <div className="flex items-start justify-between mb-3">
                 <div className="flex items-center space-x-2">
                   <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center">
-                    <FaWhatsapp className="w-5 h-5 text-white"/>
+                    <FaWhatsapp className="w-5 h-5 text-white" />
                   </div>
                   <div>
                     <p className="font-semibold text-sm">Below Zero</p>

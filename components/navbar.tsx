@@ -7,6 +7,7 @@ import { useLanguage } from "@/hooks/use-language"
 import { FiSun, FiMoon, FiMenu, FiX } from "react-icons/fi"
 import LanguageSelector from "./language-selector"
 import { motion, AnimatePresence } from "framer-motion"
+import ThemeLogo from "./theme-logo"
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -72,12 +73,9 @@ export default function Navbar() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => scrollToSection("home")}
-          className="flex items-center space-x-2 font-bold text-xl text-primary hover:text-primary/80 transition-colors duration-300"
+          className="flex items-center space-x-2 hover:opacity-80 transition-opacity duration-300"
         >
-          <div className="w-8 h-8 bg-gradient-to-br from-primary via-blue-600 to-cyan-500 rounded-[15px] flex items-center justify-center shadow-lg">
-            <span className="text-white font-bold text-sm">BZ</span>
-          </div>
-          <span>{t("hero.subtitle")}</span>
+          <ThemeLogo width={40} height={40} />
         </motion.button>
 
         {/* Desktop Navigation */}
@@ -90,15 +88,15 @@ export default function Navbar() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ y: -2 }}
               onClick={() => scrollToSection(item.id)}
-              className={`text-sm font-medium transition-all duration-300 hover:text-primary relative ${
-                activeSection === item.id ? "text-primary" : "text-muted-foreground"
+              className={`text-sm font-medium transition-all duration-300 hover:text-[#0AD3DD] relative ${
+                activeSection === item.id ? "text-[#0AD3DD]" : "text-muted-foreground"
               }`}
             >
               {item.label}
               {activeSection === item.id && (
                 <motion.div
                   layoutId="activeSection"
-                  className="absolute -bottom-2 left-0 right-0 h-0.5 bg-primary rounded-full"
+                  className="absolute -bottom-2 left-0 right-0 h-0.5 bg-[#0AD3DD] rounded-full"
                   transition={{ type: "spring", stiffness: 380, damping: 30 }}
                 />
               )}
@@ -116,7 +114,7 @@ export default function Navbar() {
             variant="outline"
             size="icon"
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-            className="rounded-[30px] border-2 border-border/50 hover:border-primary/50 bg-background/80 backdrop-blur-sm transition-all duration-300 hover:shadow-lg"
+            className="rounded-[30px] border-2 border-border/50 hover:border-[#0AD3DD]/50 bg-background/80 backdrop-blur-sm transition-all duration-300 hover:shadow-lg"
           >
             <motion.div
               initial={false}
@@ -132,7 +130,7 @@ export default function Navbar() {
           <Button
             variant="outline"
             size="icon"
-            className="md:hidden rounded-[30px] border-2 border-border/50 hover:border-primary/50 bg-background/80 backdrop-blur-sm"
+            className="md:hidden rounded-[30px] border-2 border-border/50 hover:border-[#0AD3DD]/50 bg-background/80 backdrop-blur-sm"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <motion.div animate={{ rotate: isMobileMenuOpen ? 90 : 0 }} transition={{ duration: 0.2 }}>
@@ -163,8 +161,8 @@ export default function Navbar() {
                   onClick={() => scrollToSection(item.id)}
                   className={`block w-full text-left px-4 py-3 rounded-[20px] text-sm font-medium transition-all duration-300 ${
                     activeSection === item.id
-                      ? "text-primary bg-primary/20 shadow-lg"
-                      : "text-muted-foreground hover:text-primary hover:bg-primary/10"
+                      ? "text-[#0AD3DD] bg-[#0AD3DD]/20 shadow-lg"
+                      : "text-muted-foreground hover:text-[#0AD3DD] hover:bg-[#0AD3DD]/10"
                   }`}
                 >
                   {item.label}

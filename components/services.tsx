@@ -3,9 +3,10 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/hooks/use-language"
-import { FiTool, FiZap, FiUsers, FiShield, FiClock, FiAward } from "react-icons/fi"
-import { MdBuild, MdOutlineAir, MdOutlineThermostat } from "react-icons/md"
+import { FiTool, FiZap, FiUsers, FiShield } from "react-icons/fi"
+import { MdBuild, MdOutlineAir, MdOutlineThermostat, MdPlumbing } from "react-icons/md"
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function Services() {
   const { t } = useLanguage()
@@ -39,29 +40,41 @@ export default function Services() {
 
   const additionalServices = [
     {
-      icon: <MdOutlineAir className="w-6 h-6" />,
-      title: t("services.additional.airQuality.title"),
-      description: t("services.additional.airQuality.description"),
+      icon: <MdOutlineThermostat className="w-6 h-6" />,
+      title: t("services.additional.industrialHeating.title"),
+      description: t("services.additional.industrialHeating.description"),
+      image:
+        "https://boiler.mx/wp-content/uploads/2021/02/La-calefaccion-industrial-importancia-de-su-uso-en-las-industrias.jpeg",
     },
     {
-      icon: <MdOutlineThermostat className="w-6 h-6" />,
-      title: t("services.additional.temperatureMonitoring.title"),
-      description: t("services.additional.temperatureMonitoring.description"),
+      icon: <MdOutlineAir className="w-6 h-6" />,
+      title: t("services.additional.ventilation.title"),
+      description: t("services.additional.ventilation.description"),
+      image: "https://www.suministrosfenollar.com/wp-content/uploads/2024/01/3d-rendering-ventilation-system.jpg",
     },
     {
       icon: <FiShield className="w-6 h-6" />,
-      title: t("services.additional.systemProtection.title"),
-      description: t("services.additional.systemProtection.description"),
+      title: t("services.additional.refrigeration.title"),
+      description: t("services.additional.refrigeration.description"),
+      image: "https://inverter.mx/wp-content/uploads/2021/08/tipos-de-aire-acondicionado-industrial.jpg",
     },
     {
-      icon: <FiClock className="w-6 h-6" />,
-      title: t("services.additional.support247.title"),
-      description: t("services.additional.support247.description"),
+      icon: <FiTool className="w-6 h-6" />,
+      title: t("services.additional.hotWater.title"),
+      description: t("services.additional.hotWater.description"),
+      image: "https://new.phdheatingcooling.com/wp-content/uploads/2022/06/Air-Conditioning-Maintenance-1024x576.jpg",
     },
     {
-      icon: <FiAward className="w-6 h-6" />,
-      title: t("services.additional.qualityAssurance.title"),
-      description: t("services.additional.qualityAssurance.description"),
+      icon: <MdPlumbing className="w-6 h-6" />,
+      title: t("services.additional.plumbing.title"),
+      description: t("services.additional.plumbing.description"),
+      image: "https://www.abtersteel.com/wp-content/uploads/2022/06/tesisat-sistemleri-muayene.jpg",
+    },
+    {
+      icon: <MdPlumbing className="w-6 h-6" />,
+      title: t("services.additional.specializedPlumbing.title"),
+      description: t("services.additional.specializedPlumbing.description"),
+      image: "https://www.novemark.com/public/cargas/productos/obj26/big_vyuduAbk.jpg",
     },
   ]
 
@@ -75,9 +88,7 @@ export default function Services() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-blue-600 to-cyan-500 bg-clip-text text-transparent">
-            {t("services.title")}
-          </h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-foreground">{t("services.title")}</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">{t("services.subtitle")}</p>
         </motion.div>
 
@@ -90,9 +101,8 @@ export default function Services() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className="group h-full hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-0 bg-card/60 backdrop-blur-md rounded-[30px] overflow-hidden relative">
-                {/* Frosted glass effect */}
-                <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-sm" />
+              <Card className="group h-full hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border-2 border-border/40 dark:border-0 bg-card/80 dark:bg-card/60 backdrop-blur-md rounded-[30px] overflow-hidden relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-white/20 via-white/10 to-transparent dark:from-white/10 dark:via-white/5 dark:to-transparent backdrop-blur-sm" />
 
                 <CardHeader className="text-center pb-4 relative z-10">
                   <motion.div
@@ -116,43 +126,68 @@ export default function Services() {
           ))}
         </div>
 
-        {/* Additional Services */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="bg-card/40 backdrop-blur-md rounded-[30px] p-8 border border-border/20"
+          className="mb-16"
         >
-          <h3 className="text-2xl font-bold text-center mb-8 text-primary">{t("services.additional.title")}</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          <h3 className="text-2xl sm:text-3xl font-bold text-center mb-12 text-primary">
+            {t("services.additional.title")}
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {additionalServices.map((service, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                whileHover={{ y: -5 }}
-                className="text-center p-4 rounded-[20px] bg-background/50 backdrop-blur-sm border border-border/30 hover:border-primary/30 transition-all duration-300"
               >
-                <div className="w-12 h-12 mx-auto mb-3 rounded-[15px] bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center text-primary">
-                  {service.icon}
-                </div>
-                <h4 className="font-semibold text-sm mb-2">{service.title}</h4>
-                <p className="text-xs text-muted-foreground leading-relaxed">{service.description}</p>
+                <Card className="group h-full overflow-hidden rounded-[25px] border-2 border-border/40 dark:border-0 bg-card/80 dark:bg-card/60 backdrop-blur-md hover:shadow-xl transition-all duration-500 relative">
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/20 via-white/10 to-transparent dark:from-white/10 dark:via-white/5 dark:to-transparent backdrop-blur-sm" />
+
+                  <div className="relative z-10">
+                    <div className="relative h-40 overflow-hidden">
+                      <Image
+                        src={service.image || "/placeholder.svg"}
+                        alt={service.title}
+                        fill
+                        className="object-cover transition-transform duration-500 group-hover:scale-110"
+                        loading="lazy"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+
+                      <div className="absolute top-3 left-3">
+                        <div className="w-10 h-10 rounded-[15px] bg-primary/90 backdrop-blur-sm flex items-center justify-center text-white shadow-lg">
+                          {service.icon}
+                        </div>
+                      </div>
+                    </div>
+
+                    <CardContent className="p-5">
+                      <h4 className="font-bold text-base mb-2 group-hover:text-primary transition-colors line-clamp-2">
+                        {service.title}
+                      </h4>
+                      <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
+                        {service.description}
+                      </p>
+                    </CardContent>
+                  </div>
+                </Card>
               </motion.div>
             ))}
           </div>
         </motion.div>
 
-        {/* CTA Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
-          className="text-center mt-16"
+          className="text-center"
         >
           <Button
             size="lg"

@@ -11,49 +11,47 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 200 100% 40%;
+    --primary: 188 100% 44%; /* #0AD3DD - Below Zero cyan */
     --primary-foreground: 210 40% 98%;
     --secondary: 210 40% 96%;
     --secondary-foreground: 222.2 84% 4.9%;
     --muted: 210 40% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96%;
+    --accent: 188 100% 44%; /* #0AD3DD - Below Zero cyan */
     --accent-foreground: 222.2 84% 4.9%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 200 100% 40%;
+    --ring: 188 100% 44%;
     --radius: 1.875rem; /* 30px */
-    --ice-blue: 200 100% 85%;
-    --frost-blue: 200 80% 90%;
-    --deep-blue: 200 100% 25%;
+    --navy-blue: 207 100% 18%; /* #0B304D - Below Zero navy */
+    --cyan-blue: 188 100% 44%; /* #0AD3DD - Below Zero cyan */
   }
 
   .dark {
     /* Dark theme colors for refrigeration theme */
-    --background: 222.2 84% 4.9%;
+    --background: 207 100% 8%; /* Darker navy for background */
     --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
+    --card: 207 100% 12%;
     --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
+    --popover: 207 100% 12%;
     --popover-foreground: 210 40% 98%;
-    --primary: 200 100% 50%;
-    --primary-foreground: 222.2 84% 4.9%;
-    --secondary: 217.2 32.6% 17.5%;
+    --primary: 188 100% 55%; /* Brighter cyan for dark mode */
+    --primary-foreground: 207 100% 8%;
+    --secondary: 207 100% 15%;
     --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
+    --muted: 207 100% 15%;
     --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 188 100% 55%;
+    --accent-foreground: 207 100% 8%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 200 100% 50%;
-    --ice-blue: 200 100% 20%;
-    --frost-blue: 200 80% 15%;
-    --deep-blue: 200 100% 60%;
+    --border: 207 100% 15%;
+    --input: 207 100% 15%;
+    --ring: 188 100% 55%;
+    --navy-blue: 207 100% 25%; /* Lighter navy for dark mode */
+    --cyan-blue: 188 100% 55%; /* Brighter cyan for dark mode */
   }
 }
 
@@ -69,6 +67,23 @@
 /* Enhanced smooth scrolling and custom animations */
 html {
   scroll-behavior: smooth;
+}
+
+/* WhatsApp float positioning styles */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Ensure no horizontal overflow from WhatsApp button */
+.whatsapp-float * {
+  max-width: 100vw;
+  box-sizing: border-box;
 }
 
 /* Enhanced animations and frosted glass effects */
@@ -200,22 +215,6 @@ html {
 .dark .glass-navbar {
   background: rgba(0, 0, 0, 0.8);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Enhanced WhatsApp button positioning and animations */
-.whatsapp-float {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  z-index: 1000;
-  animation: float 3s ease-in-out infinite;
-}
-
-@media (max-width: 768px) {
-  .whatsapp-float {
-    bottom: 1.5rem;
-    right: 1.5rem;
-  }
 }
 
 /* Smooth transitions for all interactive elements */

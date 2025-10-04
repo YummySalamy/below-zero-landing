@@ -21,12 +21,12 @@ export default function SuccessCases() {
       description: t("successCases.case1.description"),
       results: [t("successCases.case1.result1"), t("successCases.case1.result2"), t("successCases.case1.result3")],
       images: [
-        "/industrial-cold-storage-facility-exterior.jpg",
-        "/industrial-refrigeration-equipment-room.jpg",
-        "/cold-storage-warehouse-interior.jpg",
+        "https://www.multihousingnews.com/wp-content/uploads/sites/57/2024/10/Beacon-Hill-in-Marlboro-N.J-edited.jpg",
+        "/hvac-equipment-room-commercial-building.jpg",
+        "/modern-boiler-system-installation.jpg",
       ],
-      category: "Industrial",
-      year: "2023",
+      category: "Commercial",
+      year: "2024",
     },
     {
       id: 2,
@@ -35,9 +35,9 @@ export default function SuccessCases() {
       description: t("successCases.case2.description"),
       results: [t("successCases.case2.result1"), t("successCases.case2.result2"), t("successCases.case2.result3")],
       images: [
-        "/modern-restaurant-kitchen-refrigeration.jpg",
-        "/commercial-walk-in-cooler.jpg",
-        "/restaurant-refrigeration-display-cases.jpg",
+        "https://images.squarespace-cdn.com/content/v1/5164b16ae4b0cac6e79b081f/1541569970354-V3TN3HYZ7WAUYSGDV8SJ/2018_10_19-485+Marin-DSC00107.jpg?format=2500w",
+        "https://i.vimeocdn.com/video/1963951091-821f18d39ef6164752590b7a66206d74d2cb7c2c7d23cc172bfdefd1c8c18fff-d?f=webp",
+        "/commercial-office-hvac-ventilation-system.jpg",
       ],
       category: "Commercial",
       year: "2023",
@@ -49,12 +49,12 @@ export default function SuccessCases() {
       description: t("successCases.case3.description"),
       results: [t("successCases.case3.result1"), t("successCases.case3.result2"), t("successCases.case3.result3")],
       images: [
-        "/pharmaceutical-cold-storage-room.jpg",
-        "/medical-refrigeration-monitoring-system.jpg",
-        "/pharmaceutical-temperature-controlled-warehouse.jpg",
+        "https://blog.resurtidora.mx/hubfs/Blog/Septiembre2020/aire-acondicionado-industrial-cual-mejor-para-empresa.png",
+        "/industrial-hvac-technician-installing-system.jpg",
+        "/large-industrial-cooling-towers.jpg",
       ],
-      category: "Healthcare",
-      year: "2024",
+      category: "Industrial",
+      year: "2023",
     },
     {
       id: 4,
@@ -63,12 +63,12 @@ export default function SuccessCases() {
       description: t("successCases.case4.description"),
       results: [t("successCases.case4.result1"), t("successCases.case4.result2"), t("successCases.case4.result3")],
       images: [
-        "/supermarket-refrigerated-display-cases.jpg",
-        "/grocery-store-frozen-food-section.jpg",
-        "/supermarket-refrigeration-system-room.jpg",
+        "/luxury-hotel-hvac-system-installation.jpg",
+        "/hotel-boiler-room-equipment.jpg",
+        "/hotel-conference-center-climate-control.jpg",
       ],
-      category: "Retail",
-      year: "2023",
+      category: "Hospitality",
+      year: "2024",
     },
     {
       id: 5,
@@ -77,11 +77,11 @@ export default function SuccessCases() {
       description: t("successCases.case5.description"),
       results: [t("successCases.case5.result1"), t("successCases.case5.result2"), t("successCases.case5.result3")],
       images: [
-        "/data-center-cooling.png",
-        "/server-room-precision-air-conditioning.jpg",
-        "/data-center-cooling-infrastructure.jpg",
+        "/medical-facility-hvac-hepa-filtration.jpg",
+        "/hospital-grade-air-handling-unit.jpg",
+        "/healthcare-plumbing-system-installation.jpg",
       ],
-      category: "Technology",
+      category: "Healthcare",
       year: "2024",
     },
     {
@@ -91,23 +91,22 @@ export default function SuccessCases() {
       description: t("successCases.case6.description"),
       results: [t("successCases.case6.result1"), t("successCases.case6.result2"), t("successCases.case6.result3")],
       images: [
-        "/placeholder.svg?height=400&width=600&text=Ice+Rink+Facility",
-        "/placeholder.svg?height=400&width=600&text=Ice+Making+Equipment",
-        "/placeholder.svg?height=400&width=600&text=Rink+Cooling+System",
+        "/data-center-precision-cooling-system.jpg",
+        "/server-room-hvac-redundant-systems.jpg",
+        "/data-center-cooling-infrastructure.jpg",
       ],
-      category: "Sports",
+      category: "Data Centers",
       year: "2023",
     },
   ]
 
   const categories = [
     { key: "All", label: t("successCases.category.all") },
-    { key: "Industrial", label: t("successCases.category.industrial") },
     { key: "Commercial", label: t("successCases.category.commercial") },
+    { key: "Industrial", label: t("successCases.category.industrial") },
+    { key: "Hospitality", label: t("successCases.category.hospitality") },
     { key: "Healthcare", label: t("successCases.category.healthcare") },
-    { key: "Retail", label: t("successCases.category.retail") },
-    { key: "Technology", label: t("successCases.category.technology") },
-    { key: "Sports", label: t("successCases.category.sports") },
+    { key: "Data Centers", label: t("successCases.category.datacenters") },
   ]
   const [activeCategory, setActiveCategory] = useState("All")
 
@@ -142,9 +141,7 @@ export default function SuccessCases() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-blue-600 to-cyan-500 bg-clip-text text-transparent">
-            {t("successCases.title")}
-          </h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-foreground">{t("successCases.title")}</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             {t("successCases.subtitle")}
           </p>
@@ -188,9 +185,9 @@ export default function SuccessCases() {
                 transition={{ duration: 0.4, delay: index * 0.1 }}
                 whileHover={{ y: -8 }}
               >
-                <Card className="group h-full overflow-hidden rounded-[30px] border-0 bg-card/60 backdrop-blur-md hover:shadow-2xl transition-all duration-500">
-                  {/* Frosted glass effect */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-sm" />
+                <Card className="group h-full overflow-hidden rounded-[30px] border-2 border-border/40 dark:border-0 bg-card/80 dark:bg-card/60 backdrop-blur-md hover:shadow-2xl transition-all duration-500 relative">
+                  {/* Frosted glass effect - more visible in light theme */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/20 via-white/10 to-transparent dark:from-white/10 dark:via-white/5 dark:to-transparent backdrop-blur-sm" />
 
                   <div className="relative z-10">
                     {/* Image */}
