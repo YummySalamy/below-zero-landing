@@ -43,11 +43,23 @@ export default function Navbar() {
   }, [])
 
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId)
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
-    }
+    // Close mobile menu first
     setIsMobileMenuOpen(false)
+
+    // Small delay to allow menu close animation
+    setTimeout(() => {
+      const element = document.getElementById(sectionId)
+      if (element) {
+        const headerOffset = 80 // Account for fixed header
+        const elementPosition = element.getBoundingClientRect().top
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        })
+      }
+    }, 100)
   }
 
   const navItems = [
