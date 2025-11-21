@@ -118,6 +118,8 @@ const translations = {
     "successCases.category.commercial": "Commercial",
     "successCases.category.industrial": "Industrial",
     "successCases.category.hospitality": "Hospitality",
+    "successCases.category.residential": "Residential",
+    "successCases.category.mixeduse": "Mixed Use",
     "successCases.category.healthcare": "Healthcare",
     "successCases.category.datacenters": "Data Centers",
 
@@ -158,22 +160,40 @@ const translations = {
     "successCases.case4.result3": "Zero downtime during operation",
 
     // Case 5 - Healthcare
-    "successCases.case5.title": "Medical Facility - Critical HVAC & Plumbing Systems",
-    "successCases.case5.client": "Healthcare Center | Hoboken, NJ",
+    "successCases.case5.title": "Luxury Residential Complex - Mechanical Upgrade",
+    "successCases.case5.client": "Residential Management | Hoboken, NJ",
     "successCases.case5.description":
-      "Installation of medical-grade HVAC with HEPA filtration and redundant plumbing systems",
-    "successCases.case5.result1": "100% compliance achieved",
-    "successCases.case5.result2": "Hospital-grade air quality",
-    "successCases.case5.result3": "Backup systems installed",
+      "Complete mechanical room modernization including high-efficiency Lochinvar boilers and domestic hot water systems for a 300-unit complex.",
+    "successCases.case5.result1": "96% thermal efficiency",
+    "successCases.case5.result2": "Reliable hot water delivery",
+    "successCases.case5.result3": "Reduced maintenance costs",
 
     // Case 6 - Data Center
-    "successCases.case6.title": "Data Center - Precision Cooling & Redundancy",
-    "successCases.case6.client": "Tech Infrastructure | Secaucus, NJ",
+    "successCases.case6.title": "Metropolitan Office Tower - HVAC Retrofit",
+    "successCases.case6.client": "Commercial Property | Jersey City, NJ",
     "successCases.case6.description":
-      "Mission-critical cooling system with N+1 redundancy for 24/7 data center operations",
-    "successCases.case6.result1": "99.99% uptime guaranteed",
-    "successCases.case6.result2": "Precision temperature control",
-    "successCases.case6.result3": "↓ 35% cooling costs",
+      "Rooftop HVAC unit replacement and interior climate control upgrades for a high-rise commercial building in the city center.",
+    "successCases.case6.result1": "Improved air distribution",
+    "successCases.case6.result2": "Smart building integration",
+    "successCases.case6.result3": "Energy efficient operation",
+
+    // Case 7 - Industrial Bakery
+    "successCases.case7.title": "Industrial Bakery - Ventilation & Ovens",
+    "successCases.case7.client": "Commercial Bakery | Brooklyn, NY",
+    "successCases.case7.description":
+      "Installation of high-capacity industrial ovens and custom ventilation systems for large-scale bakery operations",
+    "successCases.case7.result1": "Optimized airflow design",
+    "successCases.case7.result2": "Energy-efficient heating",
+    "successCases.case7.result3": "Health code compliant",
+
+    // Case 8 - Advanced Boiler System
+    "successCases.case8.title": "Advanced Boiler & Pump System",
+    "successCases.case8.client": "Industrial Complex | Queens, NY",
+    "successCases.case8.description":
+      "Complete mechanical room overhaul with high-efficiency boilers, vertical turbine pumps, and smart controls",
+    "successCases.case8.result1": "95% thermal efficiency",
+    "successCases.case8.result2": "Automated pump control",
+    "successCases.case8.result3": "Reduced water waste",
   },
   es: {
     // Navigation
@@ -285,10 +305,12 @@ const translations = {
     "successCases.category.commercial": "Comercial",
     "successCases.category.industrial": "Industrial",
     "successCases.category.hospitality": "Hospitalidad",
+    "successCases.category.residential": "Residencial",
+    "successCases.category.mixeduse": "Uso Mixto",
     "successCases.category.healthcare": "Salud",
     "successCases.category.datacenters": "Centros de Datos",
 
-    // Case 1 - Spanish
+    // Case 1 - Commercial Building (Beacon Hill)
     "successCases.case1.title": "Complejo Residencial Beacon Hill - Actualización HVAC",
     "successCases.case1.client": "KRE Group | Marlboro, NJ",
     "successCases.case1.description":
@@ -297,7 +319,7 @@ const translations = {
     "successCases.case1.result2": "99.9% tiempo de actividad",
     "successCases.case1.result3": "ROI logrado en 24 meses",
 
-    // Case 2 - Spanish
+    // Case 2 - Commercial Office (485 Marin)
     "successCases.case2.title": "485 Marin Boulevard - Instalación HVAC Comercial",
     "successCases.case2.client": "Complejo de Oficinas Comerciales | Jersey City, NJ",
     "successCases.case2.description":
@@ -306,7 +328,7 @@ const translations = {
     "successCases.case2.result2": "Calidad de aire mejorada",
     "successCases.case2.result3": "Control climático inteligente",
 
-    // Case 3 - Spanish
+    // Case 3 - Industrial HVAC
     "successCases.case3.title": "Planta de Manufactura Industrial - Control Climático",
     "successCases.case3.client": "Planta de Manufactura | Newark, NJ",
     "successCases.case3.description":
@@ -315,7 +337,7 @@ const translations = {
     "successCases.case3.result2": "Sistema de monitoreo 24/7",
     "successCases.case3.result3": "↓ 30% costos de mantenimiento",
 
-    // Case 4 - Spanish
+    // Case 4 - Hospitality
     "successCases.case4.title": "Hotel & Centro de Conferencias - Renovación HVAC Completa",
     "successCases.case4.client": "Cadena Hotelera de Lujo | New York, NY",
     "successCases.case4.description":
@@ -324,23 +346,41 @@ const translations = {
     "successCases.case4.result2": "↓ 50% facturas de energía",
     "successCases.case4.result3": "Cero tiempo de inactividad",
 
-    // Case 5 - Spanish
-    "successCases.case5.title": "Instalación Médica - Sistemas HVAC y Plomería Críticos",
-    "successCases.case5.client": "Centro de Salud | Hoboken, NJ",
+    // Case 5 - Healthcare
+    "successCases.case5.title": "Complejo Residencial de Lujo - Actualización Mecánica",
+    "successCases.case5.client": "Gestión Residencial | Hoboken, NJ",
     "successCases.case5.description":
-      "Instalación de HVAC de grado médico con filtración HEPA y sistemas de plomería redundantes",
-    "successCases.case5.result1": "100% cumplimiento logrado",
-    "successCases.case5.result2": "Calidad de aire hospitalaria",
-    "successCases.case5.result3": "Sistemas de respaldo instalados",
+      "Modernización completa de la sala de máquinas, incluyendo calderas Lochinvar de alta eficiencia y sistemas de agua caliente sanitaria para un complejo de 300 unidades.",
+    "successCases.case5.result1": "96% de eficiencia térmica",
+    "successCases.case5.result2": "Suministro confiable de agua caliente",
+    "successCases.case5.result3": "Reducción de costos de mantenimiento",
 
-    // Case 6 - Spanish
-    "successCases.case6.title": "Centro de Datos - Enfriamiento de Precisión y Redundancia",
-    "successCases.case6.client": "Infraestructura Tecnológica | Secaucus, NJ",
+    // Case 6 - Data Center
+    "successCases.case6.title": "Torre de Oficinas Metropolitana - Renovación HVAC",
+    "successCases.case6.client": "Propiedad Comercial | Jersey City, NJ",
     "successCases.case6.description":
-      "Sistema de enfriamiento crítico con redundancia N+1 para operaciones de centro de datos 24/7",
-    "successCases.case6.result1": "99.99% tiempo de actividad garantizado",
-    "successCases.case6.result2": "Control de temperatura de precisión",
-    "successCases.case6.result3": "↓ 35% costos de enfriamiento",
+      "Reemplazo de unidad HVAC en la azotea y mejoras en el control climático interior para un edificio comercial de gran altura en el centro de la ciudad.",
+    "successCases.case6.result1": "Distribución de aire mejorada",
+    "successCases.case6.result2": "Integración con edificio inteligente",
+    "successCases.case6.result3": "Operación energéticamente eficiente",
+
+    // Case 7 - Industrial Bakery
+    "successCases.case7.title": "Panadería Industrial - Ventilación y Hornos",
+    "successCases.case7.client": "Panadería Comercial | Brooklyn, NY",
+    "successCases.case7.description":
+      "Instalación de hornos industriales de alta capacidad y sistemas de ventilación personalizados para operaciones de panadería a gran escala",
+    "successCases.case7.result1": "Diseño de flujo de aire optimizado",
+    "successCases.case7.result2": "Calefacción energéticamente eficiente",
+    "successCases.case7.result3": "Cumplimiento de códigos de salud",
+
+    // Case 8 - Advanced Boiler System
+    "successCases.case8.title": "Sistema Avanzado de Calderas y Bombas",
+    "successCases.case8.client": "Complejo Industrial | Queens, NY",
+    "successCases.case8.description":
+      "Revisión completa de sala mecánica con calderas de alta eficiencia, bombas de turbina vertical y controles inteligentes",
+    "successCases.case8.result1": "95% de eficiencia térmica",
+    "successCases.case8.result2": "Control de bombas automatizado",
+    "successCases.case8.result3": "Reducción de desperdicio de agua",
   },
 }
 

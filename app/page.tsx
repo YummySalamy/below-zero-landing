@@ -20,7 +20,7 @@ function LoadingSection() {
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-background text-foreground">
+    <main className="relative min-h-screen bg-background text-foreground">
       <StructuredData />
 
       {/* Background gradients */}
@@ -45,6 +45,6 @@ export default function Home() {
         <Footer />
         <WhatsAppButton />
       </div>
-    </div>
+    </main>
   )
 }
