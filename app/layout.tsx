@@ -14,32 +14,36 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Below Zero - Professional Refrigeration Services",
-    template: "%s | Below Zero Refrigeration",
+    default: "Below Zero - HVAC & Refrigeration Services NJ & NY",
+    template: "%s | Below Zero HVAC & Refrigeration",
   },
   description:
-    "Expert commercial and industrial refrigeration services. 24/7 emergency repairs, preventive maintenance, system installation, and technical consultation. Serving businesses with reliable cooling solutions.",
+    "Expert commercial and industrial refrigeration & HVAC services in NJ & NY. 24/7 emergency repairs, boiler installation, and cooling solutions. Call 201-889-4820.",
   keywords: [
-    "refrigeration services",
-    "commercial refrigeration",
-    "industrial cooling",
-    "emergency repair",
-    "preventive maintenance",
-    "system installation",
-    "HVAC services",
-    "cold storage",
-    "refrigeration maintenance",
-    "cooling systems",
+    "refrigeration services NJ",
+    "commercial HVAC New Jersey",
+    "boiler repair NJ",
+    "industrial cooling NY",
+    "emergency HVAC repair",
+    "Below Zero LLC",
+    "mechanical services Bogota NJ",
+    "walk-in cooler repair",
+    "commercial heating installation",
+    "hvac maintenance contract",
+    "Bergen County HVAC",
+    "Jersey City refrigeration",
+    "Hoboken boiler repair",
+    "Hackensack commercial cooling",
   ],
-  authors: [{ name: "Below Zero Refrigeration" }],
-  creator: "Below Zero Refrigeration",
-  publisher: "Below Zero Refrigeration",
+  authors: [{ name: "Below Zero HVAC & Refrigeration" }],
+  creator: "Below Zero HVAC & Refrigeration",
+  publisher: "Below Zero HVAC & Refrigeration",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://belowzero.com"),
+  metadataBase: new URL("https://www.belowzero-hc.com"),
   alternates: {
     canonical: "/",
     languages: {
@@ -48,17 +52,17 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Below Zero - Professional Refrigeration Services",
+    title: "Below Zero - Professional HVAC & Refrigeration Services",
     description:
-      "Expert commercial and industrial refrigeration services. 24/7 emergency repairs, preventive maintenance, and system installation.",
-    url: "https://belowzero.com",
-    siteName: "Below Zero Refrigeration",
+      "Premier commercial HVAC and refrigeration experts serving NJ & NY. 24/7 emergency support for boilers, chillers, and industrial systems.",
+    url: "https://www.belowzero-hc.com",
+    siteName: "Below Zero HVAC & Refrigeration",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/images/social-preview.png",
         width: 1200,
         height: 630,
-        alt: "Below Zero Professional Refrigeration Services",
+        alt: "Below Zero Professional HVAC & Refrigeration Services - Landing Page Preview",
       },
     ],
     locale: "en_US",
@@ -66,10 +70,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Below Zero - Professional Refrigeration Services",
-    description: "Expert commercial and industrial refrigeration services. 24/7 emergency repairs and maintenance.",
-    images: ["/og-image.jpg"],
-    creator: "@belowzerorefrig",
+    title: "Below Zero - HVAC & Refrigeration Experts NJ/NY",
+    description:
+      "Expert commercial and industrial refrigeration services. 24/7 emergency repairs and maintenance in New Jersey and New York.",
+    images: ["/images/social-preview.png"],
   },
   robots: {
     index: true,
@@ -86,7 +90,6 @@ export const metadata: Metadata = {
     google: "your-google-verification-code",
     yandex: "your-yandex-verification-code",
   },
-    generator: 'v0.app'
 }
 
 export default function RootLayout({
@@ -103,8 +106,8 @@ export default function RootLayout({
         <meta name="theme-color" content="#0ea5e9" />
         <meta name="color-scheme" content="light dark" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/below-zero-logo.jpg" sizes="any" />
+        <link rel="icon" href="/below-zero-logo.jpg" type="image/jpeg" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta httpEquiv="x-dns-prefetch-control" content="on" />
