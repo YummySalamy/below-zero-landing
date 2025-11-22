@@ -92,9 +92,9 @@ const translations = {
     "contact.form.phone": "Phone Number",
     "contact.form.message": "Message",
     "contact.form.submit": "Send Message",
-    "contact.info.address": "123 Industrial Ave, Cold City, CC 12345",
-    "contact.info.phone": "+1 (555) 123-COLD",
-    "contact.info.email": "info@belowzero.com",
+    "contact.info.address": "235 Rodgefield Ave Bogota, New Jersey 07603",
+    "contact.info.phone": "+1 (201) 640-3065",
+    "contact.info.email": "jose.m@belowzero-hc.com",
     "contact.info.hours": "24/7 Emergency Service Available",
 
     // Footer
@@ -279,9 +279,9 @@ const translations = {
     "contact.form.phone": "Número de Teléfono",
     "contact.form.message": "Mensaje",
     "contact.form.submit": "Enviar Mensaje",
-    "contact.info.address": "123 Avenida Industrial, Ciudad Fría, CF 12345",
-    "contact.info.phone": "+1 (555) 123-FRIO",
-    "contact.info.email": "info@belowzero.com",
+    "contact.info.address": "235 Rodgefield Ave Bogota, New Jersey 07603",
+    "contact.info.phone": "+1 (201) 640-3065",
+    "contact.info.email": "jose.m@belowzero-hc.com",
     "contact.info.hours": "Servicio de Emergencia 24/7 Disponible",
 
     // Footer

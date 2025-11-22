@@ -117,17 +117,11 @@ export default function Hero() {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 pt-16 w-full max-w-3xl">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-8 pt-16 w-full max-w-3xl">
             <div className="text-center">
               <div className="text-3xl font-bold text-[#0AD3DD]">15+</div>
               <div className="text-sm text-[#0B304D]/60 dark:text-white/60">
                 {language === "es" ? "Años de Experiencia" : "Years Experience"}
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-[#0AD3DD]">500+</div>
-              <div className="text-sm text-[#0B304D]/60 dark:text-white/60">
-                {language === "es" ? "Clientes Satisfechos" : "Happy Clients"}
               </div>
             </div>
             <div className="text-center col-span-2 md:col-span-1">

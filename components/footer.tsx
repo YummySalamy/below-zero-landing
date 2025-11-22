@@ -129,7 +129,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <FiMail className="h-4 w-4 text-[#0AD3DD]" />
-                <span className="text-muted-foreground">belowzerohc@gmail.com</span>
+                <span className="text-muted-foreground">jose.m@belowzero-hc.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <FiMapPin className="h-4 w-4 text-[#0AD3DD] mt-1" />

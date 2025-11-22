@@ -7,8 +7,8 @@ import SuccessCases from "@/components/success-cases"
 import Testimonials from "@/components/testimonials"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
-import WhatsAppButton from "@/components/whatsapp-button"
 import StructuredData from "@/components/structured-data" // Added structured data component
+// import WhatsAppButton from "@/components/whatsapp-button"
 
 function LoadingSection() {
   return (
@@ -43,7 +43,7 @@ export default function Home() {
         </Suspense>
         <Contact />
         <Footer />
-        <WhatsAppButton />
+        {/* <WhatsAppButton /> */}
       </div>
     </main>
   )
