@@ -134,9 +134,7 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <FiMapPin className="h-4 w-4 text-[#0AD3DD] mt-1" />
                 <span className="text-muted-foreground">
-                  235 Rodgefield Ave
-                  <br />
-                  Bogota, New Jersey 07603
+                  Bogota, New Jersey
                 </span>
               </div>
             </div>
