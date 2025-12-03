@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Below Zero HVAC & Refrigeration",
     short_name: "Below Zero",
-    description: "Expert commercial and industrial refrigeration & HVAC services in NJ & NY.",
+    description: "Expert commercial and industrial refrigeration & HVAC services in New Jersey.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

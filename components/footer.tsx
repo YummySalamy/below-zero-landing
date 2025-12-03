@@ -100,14 +100,14 @@ export default function Footer() {
                   {t("nav.services")}
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="#testimonials"
                   className="text-muted-foreground hover:text-[#0AD3DD] transition-colors duration-300"
                 >
                   {t("nav.testimonials")}
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="#contact"

@@ -14,19 +14,19 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Below Zero - HVAC & Refrigeration Services NJ & NY",
+    default: "Below Zero - HVAC & Refrigeration Services New Jersey",
     template: "%s | Below Zero HVAC & Refrigeration",
   },
   description:
-    "Expert commercial and industrial refrigeration & HVAC services in NJ & NY. 24/7 emergency repairs, boiler installation, and cooling solutions. Call 201-889-4820.",
+    "Expert commercial and industrial refrigeration & HVAC services in New Jersey. 24/7 emergency repairs, boiler installation, and cooling solutions. Call 201-889-4820.",
   keywords: [
-    "refrigeration services NJ",
+    "refrigeration services New Jersey",
     "commercial HVAC New Jersey",
-    "boiler repair NJ",
-    "industrial cooling NY",
+    "boiler repair New Jersey",
+    "industrial cooling New Jersey",
     "emergency HVAC repair",
     "Below Zero LLC",
-    "mechanical services Bogota NJ",
+    "mechanical services Bogota and New Jersey",
     "walk-in cooler repair",
     "commercial heating installation",
     "hvac maintenance contract",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Below Zero - Professional HVAC & Refrigeration Services",
     description:
-      "Premier commercial HVAC and refrigeration experts serving NJ & NY. 24/7 emergency support for boilers, chillers, and industrial systems.",
+      "Premier commercial HVAC and refrigeration experts serving NJ. 24/7 emergency support for boilers, chillers, and industrial systems.",
     url: "https://www.belowzero-hc.com",
     siteName: "Below Zero HVAC & Refrigeration",
     images: [
@@ -70,9 +70,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Below Zero - HVAC & Refrigeration Experts NJ/NY",
+    title: "Below Zero - HVAC & Refrigeration Experts NJ",
     description:
-      "Expert commercial and industrial refrigeration services. 24/7 emergency repairs and maintenance in New Jersey and New York.",
+      "Expert commercial and industrial refrigeration services. 24/7 emergency repairs and maintenance in New Jersey.",
     images: ["/images/social-preview.png"],
   },
   robots: {

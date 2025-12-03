@@ -24,7 +24,7 @@ const translations = {
     "hero.title": "Professional HVAC & Mechanical Solutions",
     "hero.subtitle": "Residential • Commercial • Industrial",
     "hero.description":
-      "Expert heating, cooling, and plumbing services across NJ & NY. 24/7 emergency support, preventive maintenance, and professional installations.",
+      "Expert heating, cooling, and plumbing services across New Jersey. 24/7 emergency support, preventive maintenance, and professional installations.",
     "hero.cta.primary": "Get Free Quote",
     "hero.cta.secondary": "Our Services",
 
@@ -68,11 +68,11 @@ const translations = {
     "about.subtitle": "Industry-leading expertise in HVAC & Mechanical Solutions",
     "about.experience.title": "15+ Years | 500+ Projects",
     "about.experience.description":
-      "Serving NJ & NY since 2009 with proven expertise in commercial and industrial HVAC",
+      "Serving New Jersey since 2009 with proven expertise in commercial and industrial HVAC",
     "about.certified.title": "EPA Certified & Licensed",
     "about.certified.description": "Fully licensed, insured, and EPA certified professionals with ongoing training",
     "about.support.title": "24/7 Emergency Service",
-    "about.support.description": "Rapid response team available anytime, anywhere across NJ & NY",
+    "about.support.description": "Rapid response team available anytime, anywhere across all New Jersey",
     "about.warranty.title": "100% Satisfaction Guarantee",
     "about.warranty.description": "Quality workmanship backed by comprehensive warranty and insurance",
     "about.badge.epa": "EPA Certified",
@@ -112,7 +112,7 @@ const translations = {
 
     // Success Cases
     "successCases.title": "Success Cases",
-    "successCases.subtitle": "Proven results across commercial and industrial HVAC projects in NJ & NY",
+    "successCases.subtitle": "Proven results across commercial and industrial HVAC projects in New Jersey",
     "successCases.viewGallery": "View Gallery",
     "successCases.category.all": "All",
     "successCases.category.commercial": "Commercial",
@@ -152,7 +152,7 @@ const translations = {
 
     // Case 4 - Hospitality
     "successCases.case4.title": "Hotel & Conference Center - Complete HVAC Retrofit",
-    "successCases.case4.client": "Luxury Hotel Chain | New York, NY",
+    "successCases.case4.client": "Luxury Hotel Chain",
     "successCases.case4.description":
       "Full HVAC retrofit including boilers, chillers, and individual room climate control for 150-room hotel",
     "successCases.case4.result1": "Guest satisfaction ↑ 45%",
@@ -179,7 +179,7 @@ const translations = {
 
     // Case 7 - Industrial Bakery
     "successCases.case7.title": "Industrial Bakery - Ventilation & Ovens",
-    "successCases.case7.client": "Commercial Bakery | Brooklyn, NY",
+    "successCases.case7.client": "Commercial Bakery",
     "successCases.case7.description":
       "Installation of high-capacity industrial ovens and custom ventilation systems for large-scale bakery operations",
     "successCases.case7.result1": "Optimized airflow design",
@@ -188,7 +188,7 @@ const translations = {
 
     // Case 8 - Advanced Boiler System
     "successCases.case8.title": "Advanced Boiler & Pump System",
-    "successCases.case8.client": "Industrial Complex | Queens, NY",
+    "successCases.case8.client": "Industrial Complex",
     "successCases.case8.description":
       "Complete mechanical room overhaul with high-efficiency boilers, vertical turbine pumps, and smart controls",
     "successCases.case8.result1": "95% thermal efficiency",
@@ -208,7 +208,7 @@ const translations = {
     "hero.title": "Soluciones Profesionales HVAC y Mecánicas",
     "hero.subtitle": "Residencial • Comercial • Industrial",
     "hero.description":
-      "Servicios expertos de calefacción, refrigeración y plomería en NJ y NY. Soporte de emergencia 24/7, mantenimiento preventivo e instalaciones profesionales.",
+      "Servicios expertos de calefacción, refrigeración y plomería en New Jersey. Soporte de emergencia 24/7, mantenimiento preventivo e instalaciones profesionales.",
     "hero.cta.primary": "Cotización Gratis",
     "hero.cta.secondary": "Nuestros Servicios",
 
@@ -254,12 +254,12 @@ const translations = {
     "about.subtitle": "Experiencia líder en la industria en soluciones HVAC y mecánicas",
     "about.experience.title": "15+ Años | 500+ Proyectos",
     "about.experience.description":
-      "Sirviendo NJ & NY desde 2009 con experiencia comprobada en HVAC comercial e industrial",
+      "Sirviendo New Jersey desde 2009 con experiencia comprobada en HVAC comercial e industrial",
     "about.certified.title": "Certificados EPA y Licenciados",
     "about.certified.description":
       "Profesionales completamente licenciados, asegurados y certificados EPA con capacitación continua",
     "about.support.title": "Servicio de Emergencia 24/7",
-    "about.support.description": "Equipo de respuesta rápida disponible en cualquier momento y lugar en NJ & NY",
+    "about.support.description": "Equipo de respuesta rápida disponible en cualquier momento y lugar en NJ",
     "about.warranty.title": "Garantía de Satisfacción 100%",
     "about.warranty.description": "Trabajo de calidad respaldado por garantía integral y seguro",
     "about.badge.epa": "Certificado EPA",
@@ -299,7 +299,7 @@ const translations = {
 
     // Success Cases
     "successCases.title": "Casos de Éxito",
-    "successCases.subtitle": "Resultados comprobados en proyectos HVAC comerciales e industriales en NJ & NY",
+    "successCases.subtitle": "Resultados comprobados en proyectos HVAC comerciales e industriales en NJ",
     "successCases.viewGallery": "Ver Galería",
     "successCases.category.all": "Todos",
     "successCases.category.commercial": "Comercial",
@@ -339,7 +339,7 @@ const translations = {
 
     // Case 4 - Hospitality
     "successCases.case4.title": "Hotel & Centro de Conferencias - Renovación HVAC Completa",
-    "successCases.case4.client": "Cadena Hotelera de Lujo | New York, NY",
+    "successCases.case4.client": "Cadena Hotelera de Lujo",
     "successCases.case4.description":
       "Renovación completa de HVAC incluyendo calderas, enfriadores y control climático individual para hotel de 150 habitaciones",
     "successCases.case4.result1": "Satisfacción de huéspedes ↑ 45%",
@@ -366,7 +366,7 @@ const translations = {
 
     // Case 7 - Industrial Bakery
     "successCases.case7.title": "Panadería Industrial - Ventilación y Hornos",
-    "successCases.case7.client": "Panadería Comercial | Brooklyn, NY",
+    "successCases.case7.client": "Panadería Comercial",
     "successCases.case7.description":
       "Instalación de hornos industriales de alta capacidad y sistemas de ventilación personalizados para operaciones de panadería a gran escala",
     "successCases.case7.result1": "Diseño de flujo de aire optimizado",
@@ -375,7 +375,7 @@ const translations = {
 
     // Case 8 - Advanced Boiler System
     "successCases.case8.title": "Sistema Avanzado de Calderas y Bombas",
-    "successCases.case8.client": "Complejo Industrial | Queens, NY",
+    "successCases.case8.client": "Complejo Industrial",
     "successCases.case8.description":
       "Revisión completa de sala mecánica con calderas de alta eficiencia, bombas de turbina vertical y controles inteligentes",
     "successCases.case8.result1": "95% de eficiencia térmica",

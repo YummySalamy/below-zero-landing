@@ -90,9 +90,9 @@ export default function Hero() {
             </div>
 
             <p className="text-lg sm:text-xl text-[#0B304D]/70 dark:text-white/70 max-w-2xl mx-auto leading-relaxed">
-              {t("hero.description").split("NJ & NY")[0]}
-              <span className="text-[#0AD3DD] font-semibold">NJ & NY</span>
-              {t("hero.description").split("NJ & NY")[1]}
+              {t("hero.description").split("New Jersey")[0]}
+              <span className="text-[#0AD3DD] font-semibold">New Jersey</span>
+              {t("hero.description").split("New Jersey")[1]}
             </p>
           </div>
 

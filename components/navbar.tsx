@@ -67,7 +67,7 @@ export default function Navbar() {
     { id: "services", label: t("nav.services") },
     { id: "about", label: t("nav.about") },
     { id: "success-cases", label: t("nav.cases") },
-    { id: "testimonials", label: t("nav.testimonials") },
+    // { id: "testimonials", label: t("nav.testimonials") },
     { id: "contact", label: t("nav.contact") },
   ]
 
@@ -76,9 +76,8 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className={`fixed top-0 z-50 w-full transition-all duration-500 ${
-        isScrolled ? "bg-background/90 backdrop-blur-xl border-b border-border/40 shadow-2xl" : "bg-transparent"
-      }`}
+      className={`fixed top-0 z-50 w-full transition-all duration-500 ${isScrolled ? "bg-background/90 backdrop-blur-xl border-b border-border/40 shadow-2xl" : "bg-transparent"
+        }`}
     >
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between px-4">
         <motion.button
@@ -100,9 +99,8 @@ export default function Navbar() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ y: -2 }}
               onClick={() => scrollToSection(item.id)}
-              className={`text-sm font-medium transition-all duration-300 hover:text-[#0AD3DD] relative ${
-                activeSection === item.id ? "text-[#0AD3DD]" : "text-muted-foreground"
-              }`}
+              className={`text-sm font-medium transition-all duration-300 hover:text-[#0AD3DD] relative ${activeSection === item.id ? "text-[#0AD3DD]" : "text-muted-foreground"
+                }`}
             >
               {item.label}
               {activeSection === item.id && (
@@ -171,11 +169,10 @@ export default function Navbar() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.3, delay: index * 0.05 }}
                   onClick={() => scrollToSection(item.id)}
-                  className={`block w-full text-left px-4 py-3 rounded-[20px] text-sm font-medium transition-all duration-300 ${
-                    activeSection === item.id
+                  className={`block w-full text-left px-4 py-3 rounded-[20px] text-sm font-medium transition-all duration-300 ${activeSection === item.id
                       ? "text-[#0AD3DD] bg-[#0AD3DD]/20 shadow-lg"
                       : "text-muted-foreground hover:text-[#0AD3DD] hover:bg-[#0AD3DD]/10"
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </motion.button>

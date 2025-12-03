@@ -4,7 +4,7 @@ import Hero from "@/components/hero"
 import Services from "@/components/services"
 import About from "@/components/about"
 import SuccessCases from "@/components/success-cases"
-import Testimonials from "@/components/testimonials"
+// import Testimonials from "@/components/testimonials"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 import StructuredData from "@/components/structured-data" // Added structured data component
@@ -38,9 +38,9 @@ export default function Home() {
         <Suspense fallback={<LoadingSection />}>
           <SuccessCases />
         </Suspense>
-        <Suspense fallback={<LoadingSection />}>
+        {/* <Suspense fallback={<LoadingSection />}>
           <Testimonials />
-        </Suspense>
+        </Suspense> */}
         <Contact />
         <Footer />
         {/* <WhatsAppButton /> */}
